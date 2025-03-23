@@ -4,7 +4,7 @@ const user = {
     signedIn: true,
 
     getUserDetails: function(){
-        //console.log("Got user details from database");
+        // console.log("Got user details from database");
         // console.log(`Username: ${this.username}`);
         console.log(this);
     }
@@ -13,8 +13,8 @@ const user = {
 
 
 
-//console.log(user.username)
-//console.log(user.getUserDetails());
+// console.log(user.username)
+// console.log(user.getUserDetails());
 // console.log(this);
 
 
@@ -28,10 +28,11 @@ function User(username, loginCount, isLoggedIn){
 
     }
 
-    return this
+    return this // this is implicite
 }
 
 const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false)
+// console.log(userOne);
 console.log(userOne.constructor);
 //console.log(userTwo);

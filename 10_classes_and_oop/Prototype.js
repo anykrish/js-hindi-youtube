@@ -6,7 +6,7 @@
 
 let myHeros = ["thor", "spiderman"]
 
-
+ 
 let heroPower = {
     thor: "hammer",
     spiderman: "sling",
@@ -30,6 +30,7 @@ Array.prototype.heyHitesh = function(){
 // heroPower.heyHitesh()
 
 // inheritance
+
 
 const User = {
     name: "chai",

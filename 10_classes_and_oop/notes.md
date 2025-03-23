@@ -1,24 +1,24 @@
-# javascript and classes
+# JavaScript and Classes
 
 ## OOP
 
 ## Object
 - collection of properties and methods
-- toLowerCase
+- toLowerCase()
 
-## why use OOP
+## why use OOPs
 
 ## parts of OOP
 Object literal 
 
 - Constructor function
-- Prototypes
+- Prototypes / Proto
 - Classes
 - Instances (new, this)
 
 
-## 4 pillars
-Abstraction
-Encapsulation
-Inheritance
-Polymorphism
+## 4 Pillars
+Abstraction (hide details)
+Encapsulation (wrapping)
+Inheritance 
+Polymorphism ()

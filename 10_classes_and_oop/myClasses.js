@@ -1,4 +1,5 @@
 // ES6
+// Just syntactical sugar
 
 class User {
     constructor(username, email, password){
@@ -8,12 +9,11 @@ class User {
     }
 
     encryptPassword(){
-        return `${this.password}abc`
+        return `${this.password}abc8989`
     }
     changeUsername(){
         return `${this.username.toUpperCase()}`
     }
-
 }
 
 const chai = new User("chai", "chai@gmail.com", "123")
@@ -21,12 +21,13 @@ const chai = new User("chai", "chai@gmail.com", "123")
 console.log(chai.encryptPassword());
 console.log(chai.changeUsername());
 
-// behind the scene
 
+
+// What's going on behind the scene? (under the hood)
 function User(username, email, password){
     this.username = username;
     this.email = email;
-    this.password = password
+    this.password = password;
 }
 
 User.prototype.encryptPassword = function(){
@@ -35,7 +36,6 @@ User.prototype.encryptPassword = function(){
 User.prototype.changeUsername = function(){
     return `${this.username.toUpperCase()}`
 }
-
 
 const tea = new User("tea", "tea@gmail.com", "123")
 
