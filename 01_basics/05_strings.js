@@ -16,10 +16,10 @@ const gameName = new String('hitesh-hc-com')
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4)    // -ve values are not allowed it will treate it as 0
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4)  // -ve values are allowed, this will print in reverse order
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
